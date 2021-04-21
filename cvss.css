@@ -118,14 +118,16 @@
 .cvssjs dl.RL dd:nth-child(3) input:checked + label,
 .cvssjs dl.RC dd:nth-child(3) input:checked + label,
 .cvssjs dd:nth-child(2) input:checked + label,
-.cvssjs .Critical {
+.cvssjs .Critical,
+.cvssjs .P0 {
     background-color: rgb(240, 130, 120);
 }
 
 .cvssjs dd input:checked + label,
 .cvssjs dl.E dd:nth-child(4) input:checked + label,
 .cvssjs dl.RL dd:nth-child(4) input:checked + label,
-.cvssjs .High {
+.cvssjs .High,
+.cvssjs .P1 {
     background-color: rgb(240, 170, 83);
     transition: background-color 0.1s ease-in-out;
 }
@@ -134,11 +136,13 @@
 .cvssjs dl.E dd:nth-child(5) input:checked + label,
 .cvssjs dl.RL dd:nth-child(5) input:checked + label,
 .cvssjs dl.AV dd:nth-child(4) input:checked + label,
-.cvssjs .Medium {
+.cvssjs .Medium,
+.cvssjs .P2 {
     background-color: rgb(250, 230, 120);
 }
 
-.cvssjs .Low {
+.cvssjs .Low,
+.cvssjs .P3 {
     background-color: rgb(208, 212, 134)
 }
 

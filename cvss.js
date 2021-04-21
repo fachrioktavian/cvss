@@ -313,7 +313,7 @@ var CVSS = function (id, options) {
     }
 
     f.appendChild(dl = e('dl'));
-    dl.innerHTML = '<dt>Severity&sdot;Score&sdot;Vector</dt>';
+    dl.innerHTML = '<dt>Priority&sdot;Score&sdot;Vector</dt>';
     dd = e('dd');
     dl.appendChild(dd);
     l = dd.appendChild(e('label'));
@@ -334,19 +334,19 @@ CVSS.prototype.severityRatings = [{
     bottom: 0.0,
     top: 0.0
 }, {
-    name: "Low",
+    name: "P2",
     bottom: 0.1,
     top: 3.9
 }, {
-    name: "Medium",
+    name: "P1",
     bottom: 4.0,
     top: 6.9
 }, {
-    name: "High",
+    name: "P0",
     bottom: 7.0,
     top: 8.9
 }, {
-    name: "Critical",
+    name: "P0",
     bottom: 9.0,
     top: 10.0
 }];
